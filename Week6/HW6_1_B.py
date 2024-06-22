@@ -16,7 +16,7 @@ for i in range (0,160,1):
     y1[i]=np.cos(0.05*i*np.pi)
     x1[i]=i
 
-    
+plt.suptitle("LAB6_1B")   
     
 plt.subplot(211)    
 

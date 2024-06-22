@@ -124,7 +124,7 @@ for m in range(-20,21):
     range_2[m+20]=m
 plt.figure(5)
 plt.subplot(311)
-plt.title("wxx5")
+plt.title("wxx05")
 plt.stem(range_2,wxx5)
 
 
@@ -186,7 +186,7 @@ for m in range(-20,21):
     range_2[m+20]=m
 plt.figure(6)
 plt.subplot(311)
-plt.title("wyy5")
+plt.title("wyy05")
 plt.stem(range_2,wyy5)
 
 

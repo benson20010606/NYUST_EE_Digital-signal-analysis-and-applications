@@ -20,7 +20,7 @@ for i in range (0,160,1):
     x1[i]=i
 
     
-    
+plt.suptitle("LAB6_1C")  
 plt.subplot(211)    
 
 plt.stem(x1,y1)

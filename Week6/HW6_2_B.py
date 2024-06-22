@@ -35,8 +35,7 @@ for i in range (0,11,1):
     y2[i]=np.cos(0.75*i*np.pi)
     x2[i]=i
 
-    
-    
+plt.suptitle("LAB6_2B")    
 plt.subplot(212)    
 
 plt.stem(x2,y2)

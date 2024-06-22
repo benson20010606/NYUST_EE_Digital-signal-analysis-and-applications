@@ -31,7 +31,7 @@ for i in range (0,32,1):
     y1[i]=0.5*k1[i]+a1+0.5*a2
     x1[i]=i
 
-    
+plt.suptitle("LAB6_2C") 
     
 plt.subplot(211)    
 

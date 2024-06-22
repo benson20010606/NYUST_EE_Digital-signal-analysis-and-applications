@@ -17,7 +17,10 @@ for i in range(0,200):
 A1=np.zeros(200)
 for i in range(0,200,1):
     A1[i]=i*np.pi/25
-    
+
+plt.suptitle("LAB6_1A")
+
+
 plt.subplot(321)
 plt.axis([0,2*np.pi, -1 ,5])
 plt.stem(A1,y)
