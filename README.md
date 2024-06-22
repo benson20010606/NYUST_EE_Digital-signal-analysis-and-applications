@@ -19,7 +19,7 @@ The aim is for students to understand how to process analog signals digitally af
 ![image](Week6/fig/Figure6_2C.png)
 
 
-#### HW6_3 : $\ s[n]=u[n]- n[n-5] $ , $\ x[n]=s[n-10] $ , $\ t[n]=0.6^n s[n]$ , $\ y[n]=t[n-10] $ 
+#### HW6_3 : $\s[n]=u[n]- n[n-5] $ , $\x[n]=s[n-10] $ , $\t[n]=0.6^n s[n]$ , $\y[n]=t[n-10] $ 
 
 > (a). Compute cross-correlation $\ r_{xy}[m] $ and autocorrelation $\ r_{xs}[m] $ , $\  -20 \leq m  \leq 20 $  ,  $\  0 \leq n  \leq 20 $   
 > (b). Let  $ wx[n] = k*randn(1,21) + x[n] $ , $ wy[n] = k*randn(1,21) + y[n] $ ,Compute separately when $ k=0.5 , 1, 2 $ ,correlation between $ wx[n] $ 、 $ x[n] $  and  $ wy[n] $ 、 $ y[n] $  , $  -20 \leq m  \leq 20 $  .  
