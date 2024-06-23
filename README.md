@@ -31,7 +31,11 @@ The aim is for students to understand how to process analog signals digitally af
 
 
 ### Week07
-TODO  
+#### HW7_1 : Same as HW6_3
+
+#### HW7_2 : DTFT by Python: write a function to compute: $$X(\Omega) = \sum_{n=-\infty}^{+\infty} x[n] e^{-j \Omega n} \implies X(\Omega_k) = \sum_{n=-\infty}^{+\infty} x[n] e^{-j \Omega_k n}$$
+
+
 ### Week08
 TODO 
 ### Week10
