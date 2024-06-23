@@ -45,7 +45,12 @@ TODO
 ### Week10
 TODO 
 ### Week11
-TODO 
+Write a Decimation-in-Time FFT function. my_FFT(Xk, N) and  my_IFFT(Xk, N),then Complete HW11_1 and  HW11_2, and compare and verify the results with the built-in FFT function in NumPy.  
+####  HW11_1 : x[n]=1 , $\ 0 \leq n  \leq 5$  <br> (a)  Plot FFT(x[n]) using N=64(after proper zero-padding) <br>  Plot IFFT (x[n])  
+
+####  HW11_2 : $\ x[n] = 0.6^n u[n]$ , $\ 0 \leq n  \leq 45$ <br> (a)   Compute FFT(x[n]) using N=128(after proper zero-padding) <br>  (b) Plot x[n], and compare it with IFFT of (a). (plot together) <br> (c) Downsample (decimate) the FFT of (a) by a factor of 4 , and compute the IFFT (128 points), and plot it with  for a comparison. 
+
+
 ### Week12
 TODO 
 ### Week13
