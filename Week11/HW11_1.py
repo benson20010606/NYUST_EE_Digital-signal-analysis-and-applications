@@ -62,7 +62,7 @@ def My_IFFT(xk,N):
 x1=np.append(np.ones(6,dtype=float), np.zeros(64-6))
 plt.figure(0,figsize=(15,15))
 plt.subplot(221)
-plt.title("O")
+plt.title("Original")
 plt.plot(abs(x1))  
 
 X2=fft(x1)
