@@ -26,7 +26,7 @@ edges = [0, band[0] - trans_width, band[0], band[1], band[1] + trans_width, 0.5*
 
 plt.figure(0)
 plt.subplot(211)
-plt.title("bandpass1")
+plt.title("bandpass 1")
 bp1 = remez(31, edges, [0, 1, 0], [1,s(60)/p(1),1],fs=8000)
 plt.stem(bp1)
 
@@ -48,8 +48,9 @@ edges = [0, band[0] - trans_width, band[0], band[1], band[1] + trans_width, 0.5*
 
 
 plt.figure(1)
-plt.title("bandpass2")
+
 plt.subplot(211)
+plt.title("bandpass 2 ")
 bp2 = remez(38, edges, [0, 1, 0],  [1,s(30)/p(0.87),1],fs=15000)
 plt.stem(bp2)
 
@@ -72,7 +73,7 @@ edges = [0,1500,2000 ,0.5*fs]
 plt.figure(2)
 
 plt.subplot(211)
-plt.title("lowpass1")
+plt.title("lowpass 1")
 lp1 = remez(43, edges, [1,0],[s(50)/p(0.1),1], fs=8000)
 plt.stem(lp1)
 
@@ -97,7 +98,7 @@ edges = [0,2000,2600 ,0.5*fs]
 plt.figure(3)
 
 plt.subplot(211)
-plt.title("highpass1")
+plt.title("highpass 1")
 hp1 = remez(29, edges,[0,1],[1,s(50)/p(0.5)],fs=8000)
 plt.stem(hp1)
 

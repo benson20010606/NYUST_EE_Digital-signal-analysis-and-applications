@@ -70,5 +70,10 @@ Design various filters that meet the following specifications using optimal meth
 
 (d) Highpass  $$F_s=8khz$$   $\omega_{s}=0.5\pi$ , $A_s=50 db$ ,  $\omega_{p}=0.65 \pi$ , $R_p=0.5 db$   
 
+![image](Week16/fig/bandpass1.png)  
+![image](Week16/fig/bandpass2.png)  
+![image](Week16/fig/lowpass1.png)  
+![image](Week16/fig/highpass1.png)  
+
 ### Week17
 TODO 
