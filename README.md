@@ -36,6 +36,9 @@ The aim is for students to understand how to process analog signals digitally af
 #### HW7_2 : DTFT by Python: write a function to compute: $$X(\Omega) = \sum_{n=-\infty}^{+\infty} x[n] e^{-j \Omega n} \implies X(\Omega_k) = \sum_{n=-\infty}^{+\infty} x[n] e^{-j \Omega_k n}$$  (choose N=1000 and 200 , then used this function in the HW7_3 and  HW7_4 )    
 #### HW7_3 :  $X[n]= \( 0.9e^{  \frac{-j \pi}{3} } \)^n$ ,  Calculate its DTFT $X(e^{j \omega})$ ,and explore the periodicity and symmetry of its magnitude. 
 #### HW7_4 : Using the provided audio signals, extract a segment (N=5667). Then, using your previously written DTFT program, calculate and plot its spectrum.  
+![image](Week7/figLAB7_3_200.png)
+![image](Week7/fig/LAB7_3_1000.png)
+![image](Week7/figLAB7_4.png)
 
 ### Week08
 TODO 
