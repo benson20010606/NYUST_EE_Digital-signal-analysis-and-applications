@@ -46,7 +46,7 @@ TODO
 TODO 
 ### Week11
 Write a Decimation-in-Time FFT function. my_FFT(Xk, N) and  my_IFFT(Xk, N),then Complete HW11_1 and  HW11_2, and compare and verify the results with the built-in FFT function in NumPy.  
-####  HW11_1 : x[n]=1 , $\ 0 \leq n  \leq 5$  <br> (a)  Plot FFT(x[n]) using N=64(after proper zero-padding) <br>  Plot IFFT (x[n])  
+####  HW11_1 : x[n]=1 , $\ 0 \leq n  \leq 5$  <br> (a)  Plot FFT(x[n]) using N=64(after proper zero-padding) <br> (b) Plot IFFT (x[n])  
 
 ####  HW11_2 : $\ x[n] = 0.95^n u[n]$ , $\ 0 \leq n  \leq 45$ <br> (a)   Compute FFT(x[n]) using N=128(after proper zero-padding) <br>  (b) Plot x[n], and compare it with IFFT of (a). (plot together) <br> (c) Downsample (decimate) the FFT of (a) by a factor of 4 , and compute the IFFT (128 points), and plot it with  for a comparison. 
 ![image](Week11/fig/Figure11_1.png)
@@ -60,7 +60,15 @@ TODO
 TODO 
 ### Week15
 TODO 
-### Week16
-TODO 
+### Week16 FIR Optimal Filter Design
+Design various filters that meet the following specifications using optimal methods and plot the amplitude and phase responses.  
+(a) Bandpass $$F_s=8khz$$  $\omega_{1s}=0.1\pi$ , $A_s=60 db$ ,  $\omega_{1p}=0.25 \pi$ , $R_p=1 db$   <br>  $\omega_{2p}=0.25\pi$ , $R_p=1 db$  ,  $\omega_{2s}=0.75 \pi$ , $A_s=60 db$
+
+(b) Bandpass  <br>  Passband: 900~1100hz  <br> Passband ripple (  $R_p$ ): <0.87dB    <br>  Stopband attenuation  ( $A_s$)  : >30dB  <br> Sampling frequency ( $f_s$ ): 15kHz  <br>  Transition band: 450Hz.
+
+(c) Lowpass  $f_p=1.5khz$ , $\Delta f =0.5khz$  , $R_p=0.1 db$  , $A_s > 50 db$ ,   $f_s=8 khz$  
+
+(d) Highpass  $$F_s=8khz$$   $\omega_{s}=0.5\pi$ , $A_s=50 db$ ,  $\omega_{p}=0.65 \pi$ , $R_p=0.5 db$   
+
 ### Week17
 TODO 
