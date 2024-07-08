@@ -82,7 +82,7 @@ for i in range(0,1024):
 
 plt.figure(1)
 
-plt.title("Origin")
+plt.title("Original")
 plt.plot(audio)  
 
 

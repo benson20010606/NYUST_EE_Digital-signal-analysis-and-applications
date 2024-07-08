@@ -37,7 +37,7 @@ audio_2=np.ones(lens)*np.mean(audio)
 for i in range(0,lens):
     if i<a:
         audio_2[i]=audio_1[i]
-
+plt.figure(3)
 plt.title("zer0")
 plt.plot(audio_2)
 

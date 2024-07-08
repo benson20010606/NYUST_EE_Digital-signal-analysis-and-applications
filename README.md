@@ -41,9 +41,56 @@ The aim is for students to understand how to process analog signals digitally af
 ![image](Week7/fig/LAB7_4.png)
 
 ### Week08
-TODO 
+#### HW8_1 & HW8_2 :Using the provided audio signal, read it in and define it as x[n] .   <br>(a) Using decimation to convert the signal to y[n]=x[2n]  and plot . <br>(b)calculate the DTFT of the decimated signal y[n] and plot its magnitude spectrum while first zero-padding y[n] to the same length as the original signal x[n] <br>(c) Interpolate the previous y[n] to become z[n]=y[n/2], filling the empty points with zero and performing linear interpolation (compare their spectra). Restore the signal to the original length of x[n], compute the DTFT, and calculate and plot its spectrum.   
+![image](Week8/fig/org.png)  
+![image](Week8/fig/decimation.png)  
+![image](Week8/fig/padding.png)  
+![image](Week8/fig/DTFT.png)  
+
+
+![image](Week8/fig/padding2.png)  
+![image](Week8/fig/linear.png)  
+![image](Week8/fig/fftp.png)  
+![image](Week8/fig/fftl.png)  
+
+
+
 ### Week10
-TODO 
+#### HW10_1 : DFT (DFT, DTFT) implementation in Python by  
+(a). nesting two (for …end) loop .  
+(b). Write a DFT/IDFT pair function using matrix-vector multiplication.  
+#### HW10_2 : x[n]=1   $\   0 \leq n  \leq 5$
+(a).  Plot DFT(x[n]) using  (after proper zero-padding).  
+(b).   Plot IDFT (x[n]), using  .(use the result (a) above) (use for loop) 
+![image](Week10/fig/HW10_2.png)  
+
+#### HW10_3 : $\ x[n]= (0.95)^n u[n]$   $\   0 \leq n  \leq 45$
+
+(a) Compute DFT(x[n]) using N=45,100  (after proper zero-padding)  
+(b) Plot x[n], and compare it with IDFT of (a). (plot together)  
+(c) Downsample (decimate) the DFT of (a) by a factor of 4 , and compute the IDFT (100 points), and plot it with  for a comparison.   
+
+![image](Week10/fig/HW10_3.png)   
+#### HW10_4:
+(a) Implement a circular shift by “mod” , circular shift of M samples with respect to size N in sequence x. function y = cirshift(x,M,N).  
+
+(b) Given an N-point sequence $\ x[n]=5(0.6)^n , 0 \leq n  \leq 32$   , determine and plot  $\ x[(n-M)_N]$   for M= 7,16 and 40   .  
+
+![image](Week10/fig/HW10_4.png)   
+
+#### HW10_5:  $\ x[n]= (0.8)^n u[n]$  , $\   0 \leq n  \leq 41$ ,  $\ h[n]=u[n]-u[n-17]$  
+
+(a)use the DFT’s to compute their circular convolution by 41 points.  
+
+(b) use the DFT’s to compute their circular convolution by 50 points.  
+
+(c) Implement their linear convolution by proper zero-padding (e.g. 64 points) and verify your answer by conv function.   
+ 
+![image](Week10/fig/HW10_5.png) 
+
+
+
+
 ### Week11
 Write a Decimation-in-Time FFT function. my_FFT(Xk, N) and  my_IFFT(Xk, N),then Complete HW11_1 and  HW11_2, and compare and verify the results with the built-in FFT function in NumPy.  
 ####  HW11_1 : x[n]=1 , $\ 0 \leq n  \leq 5$  <br> (a)  Plot FFT(x[n]) using N=64(after proper zero-padding) <br> (b) Plot IFFT (x[n])  
@@ -57,7 +104,28 @@ TODO
 ### Week13
 TODO 
 ### Week14
-TODO 
+process a provided audio signal by segmenting it into different lengths and calculating and plotting its spectrum using your own FFT function or calling NumPy's FFT function.  
+(a)  segment the original signal into chunks of 1024 points using a rectangular window and calculate the spectrum for each segment.
+(b) compute the average spectrum of multiple segments (each of 1024 points) of a signal.  
+(c) compute the spectrum of the entire signal.
+(d) rework (a) and (b), but this time applying an appropriate Hamming window to each segment length.  
+
+![image](Week14/fig/orginal.png)
+
+![image](Week14/fig/dir_1024.png)
+
+![image](Week14/fig/averange.png)
+
+
+![image](Week14/fig/all.png)
+
+![image](Week14/fig/HM1024.png)
+
+![image](Week14/fig/HMaverange.png)  
+
+
+
+
 ### Week15
 TODO 
 ### Week16 FIR Optimal Filter Design

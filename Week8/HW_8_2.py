@@ -26,7 +26,7 @@ for i in range(0,lens):
     if i%2==0:
         z[i]=y[int(i/2)]
 plt.figure(2)
-plt.title("0")
+plt.title("padding 0")
 plt.plot(z) 
 
 
@@ -50,11 +50,13 @@ plt.plot(z1)
 dataFFt_1=fft(z)
 dataFFtabs_1=abs(dataFFt_1)
 plt.figure(4)
+plt.title("fft_padding0")
 plt.plot(dataFFtabs_1[1:lens])
 
 
 dataFFt_2=fft(z1)
 dataFFtabs_2=abs(dataFFt_2)
 plt.figure(5)
+plt.title("fft_linear")
 plt.plot(dataFFtabs_2[1:lens])
 
